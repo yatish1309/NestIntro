@@ -1,5 +1,8 @@
 POST http://localhost:3000/users
-
 Content-Type: application/json
 
-{}
+{
+  "firstname":"dunna",
+  "email": "dunna@yopmail.com",
+  "password": "password123"
+}
