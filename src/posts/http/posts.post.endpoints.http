@@ -1,0 +1,16 @@
+POST http://localhost:3000/posts
+Content-Type:application/json
+
+{
+  "title":"whts new in nest",
+  "postType":"post",
+  "slug":"my-slug",
+  "status":"draft",
+  "content":"test content",
+  "schema":"{\r\n \"@context\":\"https:\/\/schema.org\" \r\n}",
+  "featuredImageUrl":"https://www.google.com/imgres?q=image%20url&imgurl=https%3A%2F%2Fcloudinary-marketing-res.cloudinary.com%2Fimages%2Fw_1000%2Cc_scale%2Fv1679921049%2FImage_URL_header%2FImage_URL_header-png%3F_i%3DAA&imgrefurl=https%3A%2F%2Fcloudinary.com%2Fglossary%2Fimage-url&docid=rMaOTvGX6E86UM&tbnid=QkpExfz1uKND2M&vet=12ahUKEwim0r3K3IqOAxVFXmwGHe6wAWcQM3oECHQQAA..i&w=1000&h=523&hcb=2&ved=2ahUKEwim0r3K3IqOAxVFXmwGHe6wAWcQM3oECHQQAA",
+  "metaOptions":[{
+    "key":"test key",
+    "value":20
+  }]
+}
