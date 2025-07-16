@@ -86,7 +86,7 @@ export class CreatePostDto {
     description: 'Array of tags associated with the post',
     example: ['technology', 'nestjs', 'typescript']
   })
-  tags?:String[];
+  tags?:string[];
 
   @IsOptional()
   @IsArray()
